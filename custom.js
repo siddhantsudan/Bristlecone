@@ -46,6 +46,13 @@ reader.readAsBinaryString(input.files[0]);
 
 	}
 
+	// $scope.exec=function()
+	// 	{
+	// 		var file = this.files[0];
+	// 		var form = new FormData()
+    //         form.append('file',file)
+	// 	}
+
 
 
 

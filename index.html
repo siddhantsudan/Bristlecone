@@ -19,9 +19,9 @@
 </head>
 <body ng-controller="myController">
 <div>
-	<form enctype="multipart/formdata">
-		<input type="file" id="file" file-model = "myFile"></input>
-		<button type="submit" value="submit" ng-click="uploadExcel()">Upload File</button>
+	<form enctype="multipart/formdata" method="POST" action="http://localhost:7071/api/HttpTrigger1Upload">
+		<input type="file" id="myfile" name="file"></input>
+		<input type="submit">
 	</form>
 </div>
 <table id="myTable" ng-show="Clicked">

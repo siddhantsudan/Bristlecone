@@ -1,0 +1,12 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "myblob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "test2019/{name}",
+      "connection": "DefaultEndpointsProtocol=https;AccountName=upload2017;AccountKey=hRF/4rD/AV/WF3I1srQgHipU0imTKm6nB/4Rk9MwaQlTYPe5AwF1vsfIgow0yb6gYyeTeaKcyzWSeFFQX/DwTQ==;EndpointSuffix=core.windows.net"
+    }
+  ]
+}
